@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 }))
 
 app.use(router);
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 
 /* For inserting into Database
 function getProducts() {
