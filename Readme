@@ -1,0 +1,11 @@
+a)to start from the code
+1-npm install
+2-npm run start
+3-localhost:3000
+
+b)or launch the app
+-see all the records
+-if type anything apart from these type of patterns ("/?query=SamsungANDGalaxy" or"/?query=SamsungORApple")
+it will show all the records (error handling)
+-if these pattern are used ("/?SamsungORAppleANDiPhone")- it will show not supported.
+-price filter is not supported
